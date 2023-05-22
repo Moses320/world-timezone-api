@@ -6,6 +6,8 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="fcd603d1-242d-4c48-9538-d0dc7b97e3d4" basePath="/timezone">
 		<http:listener-connection host="0.0.0.0" port="8081" />
 	</http:listener-config>
+	
+	
 	<http:request-config name="HTTP_Request_configuration" doc:name="HTTP Request configuration" doc:id="f0c27db2-b07b-4bb5-925e-619850b557fd" basePath="/api/timezone" >
 		<http:request-connection host="worldtimeapi.org" />
 	</http:request-config>
